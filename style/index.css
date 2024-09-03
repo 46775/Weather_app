@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+
+  /* .poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+} */
+}
+
+:root {
+  --main-background-color: #ffffff;
+  --btn-gradient: linear-gradient(135deg, #00fea0, #5b548a);
+}
+
+body {
+  background-color: var(--main-background-color);
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(135deg, #00fea0, #5b548a);
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 30px;
+  height: 50px;
+  background-color: #fff;
+  padding: 10px;
+  color: #555;
+}
+
+.search > input {
+  flex: 1;
+  padding: 10px 0;
+  border: none;
+  margin-left: 10px;
+  font-size: 15px;
+  /* width: 90%;
+  max-width: 90%; */
+}
+
+.search > i {
+  padding: 10px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.weather > i {
+  font-size: 120px;
+  color: rgb(255, 213, 88);
+  margin: 40px auto;
+}
+
+.cityName{
+    font-size: xx-large;
+    letter-spacing: 1px;
+}
+
+hr {
+  margin: 20px 0 50px 0;
+  opacity: 0.4;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.details i {
+  font-size: 50px;
+  padding-right: 5px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+div > p{
+ margin-top: -6px;
+ color: #ffffff;
+}
+
+.humidity, .wind{
+    font-size: 28px;
+    font-weight: 400;
+}
